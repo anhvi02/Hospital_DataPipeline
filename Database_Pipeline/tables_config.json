@@ -1,0 +1,28 @@
+{
+  "files": {
+    "appointment": {
+      "path": "./data/appointment.csv",
+      "key": "AppointmentID",
+      "table": "Appointment",
+      "schema": {
+        "AppointmentID": "INT",
+        "PatientID": "INT",
+        "StartTime": "DATETIME",
+        "EndTime": "DATETIME",
+        "RoomID": "INT"
+      }
+    },
+    "patient": {
+      "path": "./data/patient.csv",
+      "key": "SSN",
+      "table": "Patient",
+      "schema": {
+        "SSN": "INT",
+        "Name": "TEXT",
+        "DOB": "DATETIME",
+        "InsuranceID": "INT",
+        "Address": "TEXT"
+      }
+    }
+  }
+}
